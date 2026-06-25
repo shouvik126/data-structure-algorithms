@@ -7,8 +7,10 @@ class Solution {
                 
                 if (nums[j] == target)
                     count++;
+                else
+                    count--;
 
-                if (count > (j - i + 1)/2) {
+                if (count > 0) {
                     result++;
             }
             }
