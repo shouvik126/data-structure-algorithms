@@ -6,6 +6,7 @@
 | ------- |
 | [0009-palindrome-number](https://github.com/shouvik126/data-structure-algorithms/tree/master/0009-palindrome-number) |
 | [3700-number-of-zigzag-arrays-ii](https://github.com/shouvik126/data-structure-algorithms/tree/master/3700-number-of-zigzag-arrays-ii) |
+| [3754-concatenate-non-zero-digits-and-multiply-by-sum-i](https://github.com/shouvik126/data-structure-algorithms/tree/master/3754-concatenate-non-zero-digits-and-multiply-by-sum-i) |
 ## Dynamic Programming
 |  |
 | ------- |
