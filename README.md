@@ -70,6 +70,7 @@
 ## Enumeration
 |  |
 | ------- |
+| [1291-sequential-digits](https://github.com/shouvik126/data-structure-algorithms/tree/master/1291-sequential-digits) |
 | [3020-find-the-maximum-number-of-elements-in-subset](https://github.com/shouvik126/data-structure-algorithms/tree/master/3020-find-the-maximum-number-of-elements-in-subset) |
 ## Greedy
 |  |
