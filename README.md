@@ -88,6 +88,7 @@
 ## Greedy
 |  |
 | ------- |
+| [0316-remove-duplicate-letters](https://github.com/shouvik126/data-structure-algorithms/tree/master/0316-remove-duplicate-letters) |
 | [1846-maximum-element-after-decreasing-and-rearranging](https://github.com/shouvik126/data-structure-algorithms/tree/master/1846-maximum-element-after-decreasing-and-rearranging) |
 | [3534-path-existence-queries-in-a-graph-ii](https://github.com/shouvik126/data-structure-algorithms/tree/master/3534-path-existence-queries-in-a-graph-ii) |
 ## Sorting
@@ -101,6 +102,7 @@
 ## String
 |  |
 | ------- |
+| [0316-remove-duplicate-letters](https://github.com/shouvik126/data-structure-algorithms/tree/master/0316-remove-duplicate-letters) |
 | [1358-number-of-substrings-containing-all-three-characters](https://github.com/shouvik126/data-structure-algorithms/tree/master/1358-number-of-substrings-containing-all-three-characters) |
 | [1967-number-of-strings-that-appear-as-substrings-in-word](https://github.com/shouvik126/data-structure-algorithms/tree/master/1967-number-of-strings-that-appear-as-substrings-in-word) |
 | [3756-concatenate-non-zero-digits-and-multiply-by-sum-ii](https://github.com/shouvik126/data-structure-algorithms/tree/master/3756-concatenate-non-zero-digits-and-multiply-by-sum-ii) |
@@ -190,4 +192,12 @@
 |  |
 | ------- |
 | [3312-sorted-gcd-pair-queries](https://github.com/shouvik126/data-structure-algorithms/tree/master/3312-sorted-gcd-pair-queries) |
+## Stack
+|  |
+| ------- |
+| [0316-remove-duplicate-letters](https://github.com/shouvik126/data-structure-algorithms/tree/master/0316-remove-duplicate-letters) |
+## Monotonic Stack
+|  |
+| ------- |
+| [0316-remove-duplicate-letters](https://github.com/shouvik126/data-structure-algorithms/tree/master/0316-remove-duplicate-letters) |
 <!---LeetCode Topics End-->
