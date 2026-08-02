@@ -7,6 +7,7 @@
 | [0009-palindrome-number](https://github.com/shouvik126/data-structure-algorithms/tree/master/0009-palindrome-number) |
 | [0486-predict-the-winner](https://github.com/shouvik126/data-structure-algorithms/tree/master/0486-predict-the-winner) |
 | [0628-maximum-product-of-three-numbers](https://github.com/shouvik126/data-structure-algorithms/tree/master/0628-maximum-product-of-three-numbers) |
+| [0877-stone-game](https://github.com/shouvik126/data-structure-algorithms/tree/master/0877-stone-game) |
 | [1979-find-greatest-common-divisor-of-array](https://github.com/shouvik126/data-structure-algorithms/tree/master/1979-find-greatest-common-divisor-of-array) |
 | [3014-minimum-number-of-pushes-to-type-word-i](https://github.com/shouvik126/data-structure-algorithms/tree/master/3014-minimum-number-of-pushes-to-type-word-i) |
 | [3312-sorted-gcd-pair-queries](https://github.com/shouvik126/data-structure-algorithms/tree/master/3312-sorted-gcd-pair-queries) |
@@ -24,6 +25,7 @@
 |  |
 | ------- |
 | [0486-predict-the-winner](https://github.com/shouvik126/data-structure-algorithms/tree/master/0486-predict-the-winner) |
+| [0877-stone-game](https://github.com/shouvik126/data-structure-algorithms/tree/master/0877-stone-game) |
 | [1301-number-of-paths-with-max-score](https://github.com/shouvik126/data-structure-algorithms/tree/master/1301-number-of-paths-with-max-score) |
 | [3336-find-the-number-of-subsequences-with-equal-gcd](https://github.com/shouvik126/data-structure-algorithms/tree/master/3336-find-the-number-of-subsequences-with-equal-gcd) |
 | [3534-path-existence-queries-in-a-graph-ii](https://github.com/shouvik126/data-structure-algorithms/tree/master/3534-path-existence-queries-in-a-graph-ii) |
@@ -43,6 +45,7 @@
 | ------- |
 | [0486-predict-the-winner](https://github.com/shouvik126/data-structure-algorithms/tree/master/0486-predict-the-winner) |
 | [0628-maximum-product-of-three-numbers](https://github.com/shouvik126/data-structure-algorithms/tree/master/0628-maximum-product-of-three-numbers) |
+| [0877-stone-game](https://github.com/shouvik126/data-structure-algorithms/tree/master/0877-stone-game) |
 | [1260-shift-2d-grid](https://github.com/shouvik126/data-structure-algorithms/tree/master/1260-shift-2d-grid) |
 | [1288-remove-covered-intervals](https://github.com/shouvik126/data-structure-algorithms/tree/master/1288-remove-covered-intervals) |
 | [1301-number-of-paths-with-max-score](https://github.com/shouvik126/data-structure-algorithms/tree/master/1301-number-of-paths-with-max-score) |
@@ -258,4 +261,5 @@
 |  |
 | ------- |
 | [0486-predict-the-winner](https://github.com/shouvik126/data-structure-algorithms/tree/master/0486-predict-the-winner) |
+| [0877-stone-game](https://github.com/shouvik126/data-structure-algorithms/tree/master/0877-stone-game) |
 <!---LeetCode Topics End-->
