@@ -1,4 +1,4 @@
-class Solution {
+/* class Solution {
     int n = 0;
     public String stoneGameIII(int[] stoneValue) {
         n = stoneValue.length;
@@ -28,5 +28,28 @@ class Solution {
         if (i + 2 < n)
             result = Math.max(result, (stoneValue[i] + stoneValue[i + 1] + stoneValue[i + 2] - solve(stoneValue, i + 3, dp)));
         return dp[i] = result;
+    }
+} */
+
+class Solution {
+    public String stoneGameIII(int[] stoneValue) {
+        int n = stoneValue.length;
+        int[] dp = new int[n + 1];
+        for (int i = n - 1; i >= 0; i--) {
+            dp[i] = stoneValue[i] - dp[i + 1];
+            if (i + 2 <= n)
+                dp[i] = Math.max(dp[i], stoneValue[i] + stoneValue[i + 1] - dp[i + 2]);
+
+            if (i + 3 <= n)
+                dp[i] = Math.max(dp[i], (stoneValue[i] + stoneValue[i + 1] + stoneValue[i + 2] - dp[i + 3]));
+        }
+        int diff = dp[0];
+        if (diff > 0) {
+            return "Alice";
+        } else if (diff < 0) {
+            return "Bob";
+        } else {
+            return "Tie";
+        }
     }
 }
