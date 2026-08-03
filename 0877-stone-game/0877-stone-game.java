@@ -20,7 +20,7 @@ class Solution {
             return dp[i][j];
         }
         int take_i = piles[i] - solve(i + 1, j, piles, dp);
-        int take_j = piles[j] = solve(i, j - 1, piles, dp);
+        int take_j = piles[j] - solve(i, j - 1, piles, dp);
         return dp[i][j] = Math.max(take_i, take_j);
     }
 }
