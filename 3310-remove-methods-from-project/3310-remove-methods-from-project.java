@@ -14,8 +14,7 @@ class Solution {
                 return v; 
             });
         }
-        boolean[] visited = new boolean[n];
-        dfs(adjList, sus, indegree, visited, k);
+        dfs(adjList, sus, indegree, k);
         List<Integer> ans = new ArrayList<>();
         for (int i = 0; i < n; i++) {
             if (!sus[i]) {
@@ -30,11 +29,10 @@ class Solution {
         }
         return ans;
     }
-    public void dfs(Map<Integer, List<Integer>>adjList, boolean[] sus, int[] indegree, boolean[] visited, int k) {
-        if (visited[k]){
+    public void dfs(Map<Integer, List<Integer>>adjList, boolean[] sus, int[] indegree, int k) {
+        if (sus[k]){
             return;
         }
-        visited[k] = true;
         sus[k] = true;
         
         if (adjList.get(k) != null) {
@@ -42,7 +40,7 @@ class Solution {
                 if (indegree[i] > 0) {
                     indegree[i]--;
                 }
-                dfs(adjList, sus, indegree, visited, i);
+                dfs(adjList, sus, indegree, i);
             }
         }
     }
