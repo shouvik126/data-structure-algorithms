@@ -14,7 +14,8 @@ class Solution {
                 return v; 
             });
         }
-        dfs(adjList, sus, indegree, k);
+        // dfs(adjList, sus, indegree, k);
+        bfs(adjList, sus, indegree, k);
         List<Integer> ans = new ArrayList<>();
         for (int i = 0; i < n; i++) {
             if (!sus[i]) {
@@ -29,19 +30,37 @@ class Solution {
         }
         return ans;
     }
-    public void dfs(Map<Integer, List<Integer>>adjList, boolean[] sus, int[] indegree, int k) {
-        if (sus[k]){
-            return;
-        }
-        sus[k] = true;
-        
-        if (adjList.get(k) != null) {
-            for (int i : adjList.get(k)) {
-                if (indegree[i] > 0) {
-                    indegree[i]--;
+    public void bfs(Map<Integer, List<Integer>>adjList, boolean[] sus, int[] indegree, int k) {
+        Queue<Integer> qu = new LinkedList<>();
+        qu.offer(k);
+        while(!qu.isEmpty()) {
+            int ele = qu.poll();
+            sus[ele] = true;
+            if (adjList.get(ele) != null) {
+                for (int num : adjList.get(ele)) {
+                    indegree[num]--;
+                    if (!sus[num]) {
+                        qu.offer(num);
+                    }
+                    sus[num] = true;
                 }
-                dfs(adjList, sus, indegree, i);
-            }
+            }                             
         }
     }
+    // public void dfs(Map<Integer, List<Integer>>adjList, boolean[] sus, int[] indegree, int k) {
+    //     if (sus[k]){
+    //         return;
+    //     }
+    //     sus[k] = true;
+        
+    //     if (adjList.get(k) != null) {
+    //         for (int i : adjList.get(k)) {
+    //             if (indegree[i] > 0) {
+    //                 indegree[i]--;
+    //             }
+    //             dfs(adjList, sus, indegree, i);
+    //         }
+    //     }
+    // }
+
 }
