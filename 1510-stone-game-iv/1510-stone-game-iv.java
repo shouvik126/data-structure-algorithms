@@ -27,6 +27,7 @@
 class Solution {
     public boolean winnerSquareGame(int n) {
         boolean[] dp = new boolean[n + 1];
+        dp[0] = false; // base case
         for (int i = 1; i <= n; i++) {
             for (int k = 1; k*k <= i; k++) {
                 if (!dp[i - (k * k)]) {
