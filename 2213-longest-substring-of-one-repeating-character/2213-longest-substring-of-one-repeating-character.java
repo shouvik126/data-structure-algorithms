@@ -1,3 +1,6 @@
+//Approach (Segment Tree)
+//T.C : O(n + klog(n)), build: O(n) and each update: O(log n), done k times → O(k·log n)
+//S.C : O(4*n) ~ O(n)
 class Solution {
     static class Node {
         int pre = 0;
