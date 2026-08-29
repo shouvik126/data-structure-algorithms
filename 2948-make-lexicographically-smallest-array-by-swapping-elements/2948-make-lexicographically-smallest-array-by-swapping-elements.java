@@ -27,6 +27,9 @@
 // }
 
 
+//Approach-2 (using sorting and grouping using unordered_map)
+//T.C : ~O(n*logn)
+//S.C : ~O(n)
 class Solution {
     public int[] lexicographicallySmallestArray(int[] nums, int limit) {
         int[] sortNums = nums.clone();
