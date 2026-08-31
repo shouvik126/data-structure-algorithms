@@ -396,4 +396,8 @@
 |  |
 | ------- |
 | [0416-partition-equal-subset-sum](https://github.com/shouvik126/data-structure-algorithms/tree/master/0416-partition-equal-subset-sum) |
+## Linked List
+|  |
+| ------- |
+| [2058-find-the-minimum-and-maximum-number-of-nodes-between-critical-points](https://github.com/shouvik126/data-structure-algorithms/tree/master/2058-find-the-minimum-and-maximum-number-of-nodes-between-critical-points) |
 <!---LeetCode Topics End-->
