@@ -60,6 +60,18 @@
     
 // }
 
+//Approach-3 (Optimized Bottom UP DP)
+/*
+    If you notice, you are just requiring the previous row's value
+    See the if condition    - dp[i-1][j-1] + dp[i-1][j]; //(i-1) points to previous row
+    
+    See the else condition  - dp[i-1][j]; //(i-1) points to previous row
+    
+    So, why not simply store previous value in a 1-D array
+    We can then solve this qn, using O(m+n) space complexity
+*/
+//T.C : O(m*n)
+//S.C : O(m + n)
 class Solution {
     public int numDistinct(String s, String t) {
         int m = s.length();
