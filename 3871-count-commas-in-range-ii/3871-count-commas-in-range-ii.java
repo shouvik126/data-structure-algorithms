@@ -1,3 +1,5 @@
+// TC: O(log(base 1000)(n))
+// SC: O(1)
 class Solution {
     public long countCommas(long n) {
         long result = 0;
