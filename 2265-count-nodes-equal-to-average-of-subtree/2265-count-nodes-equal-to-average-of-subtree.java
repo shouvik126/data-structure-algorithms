@@ -13,33 +13,60 @@
  *     }
  * }
  */
+
+ //Approach-1 (Brute Force)
+//T.C : O(n^2) For every root, you visit it's subtree to find average
+//S.C : O(1) (excluding recursion stack space)
+// class Solution {
+//     int result = 0;
+//     int count = 0;
+//     public int averageOfSubtree(TreeNode root) {
+//         solve(root);
+//         return result;
+//     }
+
+//     public void solve(TreeNode root) {
+//         if (root == null) {
+//             return;
+//         }
+//         count = 0;
+//         int sum = findSum(root);
+//         if ((sum / count) == root.val) {
+//             result++;
+//         }
+//         solve(root.left);
+//         solve(root.right);
+//     }
+//     public int findSum(TreeNode root) {
+//         if (root == null) {
+//             return 0;
+//         }
+//         count++;
+//         int leftSum = findSum(root.left);
+//         int rightSum = findSum(root.right);
+//         return leftSum + rightSum + root.val;
+//     }
+// }
+
 class Solution {
     int result = 0;
-    int count = 0;
     public int averageOfSubtree(TreeNode root) {
         solve(root);
         return result;
     }
 
-    public void solve(TreeNode root) {
+    public Pair<Integer, Integer> solve(TreeNode root) {
         if (root == null) {
-            return;
+            return new Pair<>(0, 0);
         }
-        count = 0;
-        int sum = findSum(root);
-        if ((sum / count) == root.val) {
+        Pair<Integer, Integer> p1 = solve(root.left);
+        Pair<Integer, Integer> p2 = solve(root.right);
+        int totalCount = p1.getKey() + p2.getKey() + 1;
+        int totalSum = p1.getValue() + p2.getValue() + root.val;
+        int avg = totalSum / totalCount;
+        if (avg == root.val) {
             result++;
         }
-        solve(root.left);
-        solve(root.right);
-    }
-    public int findSum(TreeNode root) {
-        if (root == null) {
-            return 0;
-        }
-        count++;
-        int leftSum = findSum(root.left);
-        int rightSum = findSum(root.right);
-        return leftSum + rightSum + root.val;
+        return new Pair<>(totalCount, totalSum);
     }
 }
