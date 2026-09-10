@@ -48,6 +48,10 @@
 //     }
 // }
 
+
+//Approach-2 (Doing postorder traversal)
+//T.C : O(n)
+//S.C : O(1) (excluding recursion stack space)
 class Solution {
     int result = 0;
     public int averageOfSubtree(TreeNode root) {
