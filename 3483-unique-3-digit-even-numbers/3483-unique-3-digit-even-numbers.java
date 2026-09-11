@@ -1,3 +1,8 @@
+
+
+
+// TC: O(1)
+// SC: O(1)
 class Solution {
     public int totalNumbers(int[] digits) {
         int[] count = new int[10];
