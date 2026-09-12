@@ -94,7 +94,7 @@
 
 
 
-//Approach-2 (Recursion Memo)
+//Approach-2 (Bottom up)
 //T.C : O(nlogn + n·K·log K), where K = 4
 //S.C : O(n·K), where K = 4
 class Solution {
