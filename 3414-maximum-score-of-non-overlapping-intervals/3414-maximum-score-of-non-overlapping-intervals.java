@@ -1,3 +1,6 @@
+//Approach-1 (Recursion Memo)
+//T.C : O(nlogn + n·K·log K), where K = 4
+//S.C : O(n·K), where K = 4
 class Solution {
     int n;
     List<Integer> nextIdx;
