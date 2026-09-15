@@ -43,6 +43,7 @@
 | [0115-distinct-subsequences](https://github.com/shouvik126/data-structure-algorithms/tree/master/0115-distinct-subsequences) |
 | [0416-partition-equal-subset-sum](https://github.com/shouvik126/data-structure-algorithms/tree/master/0416-partition-equal-subset-sum) |
 | [0486-predict-the-winner](https://github.com/shouvik126/data-structure-algorithms/tree/master/0486-predict-the-winner) |
+| [0647-palindromic-substrings](https://github.com/shouvik126/data-structure-algorithms/tree/master/0647-palindromic-substrings) |
 | [0877-stone-game](https://github.com/shouvik126/data-structure-algorithms/tree/master/0877-stone-game) |
 | [0940-distinct-subsequences-ii](https://github.com/shouvik126/data-structure-algorithms/tree/master/0940-distinct-subsequences-ii) |
 | [1140-stone-game-ii](https://github.com/shouvik126/data-structure-algorithms/tree/master/1140-stone-game-ii) |
@@ -220,6 +221,7 @@
 | ------- |
 | [0115-distinct-subsequences](https://github.com/shouvik126/data-structure-algorithms/tree/master/0115-distinct-subsequences) |
 | [0316-remove-duplicate-letters](https://github.com/shouvik126/data-structure-algorithms/tree/master/0316-remove-duplicate-letters) |
+| [0647-palindromic-substrings](https://github.com/shouvik126/data-structure-algorithms/tree/master/0647-palindromic-substrings) |
 | [0940-distinct-subsequences-ii](https://github.com/shouvik126/data-structure-algorithms/tree/master/0940-distinct-subsequences-ii) |
 | [1081-smallest-subsequence-of-distinct-characters](https://github.com/shouvik126/data-structure-algorithms/tree/master/1081-smallest-subsequence-of-distinct-characters) |
 | [1358-number-of-substrings-containing-all-three-characters](https://github.com/shouvik126/data-structure-algorithms/tree/master/1358-number-of-substrings-containing-all-three-characters) |
@@ -320,6 +322,7 @@
 ## Two Pointers
 |  |
 | ------- |
+| [0647-palindromic-substrings](https://github.com/shouvik126/data-structure-algorithms/tree/master/0647-palindromic-substrings) |
 | [2472-maximum-number-of-non-overlapping-palindrome-substrings](https://github.com/shouvik126/data-structure-algorithms/tree/master/2472-maximum-number-of-non-overlapping-palindrome-substrings) |
 | [3302-find-the-lexicographically-smallest-valid-sequence](https://github.com/shouvik126/data-structure-algorithms/tree/master/3302-find-the-lexicographically-smallest-valid-sequence) |
 | [3534-path-existence-queries-in-a-graph-ii](https://github.com/shouvik126/data-structure-algorithms/tree/master/3534-path-existence-queries-in-a-graph-ii) |
