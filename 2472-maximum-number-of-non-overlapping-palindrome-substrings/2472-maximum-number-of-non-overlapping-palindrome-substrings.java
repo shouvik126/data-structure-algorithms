@@ -56,7 +56,7 @@ class Solution {
         dp = new int[n + 1][n + 1];
         dp[n][n] = 0; // base case
         for (int i = n - 1; i >= 0; i--) {
-            for  (int j = n - 1; j >= i; j--) {
+            for  (int j = n - 1; j >= 0; j--) {
                 if (isPelindrome(s, i, j)) {
                     int take = 1 + (j + k <= n ? dp[j + 1][j + k] : 0);
                     int grow = dp[i][j + 1];
