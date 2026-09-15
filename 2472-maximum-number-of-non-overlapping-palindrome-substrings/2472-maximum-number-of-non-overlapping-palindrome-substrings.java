@@ -184,7 +184,52 @@
 
 //Approach-5 (Using Blueprint of Palindrome Strings to convert isPalindrome check to O(1))
 //T.C : O(n^2)
-//S.C : O(n^2)
+//S.C : O(n)
+// class Solution {
+//     int []dp;
+//     boolean[][] isPalindrome;
+//     public int maxPalindromes(String s, int k) {
+//         int n = s.length();
+//         dp = new int[n + 1];
+//         Arrays.fill(dp, -1);
+//         isPalindrome = new boolean[n + 1][n + 1];
+//         for (int L = 1; L <= n; L++) {
+//             for (int i = 0; i + L - 1 < n; i++) {
+//                 int j = i + L - 1;
+//                 if (i == j) {
+//                     isPalindrome[i][j] = true;
+//                 } else if (i + 1 == j) {
+//                     isPalindrome[i][j] = s.charAt(i) == s.charAt(j);
+//                 } else {
+//                     isPalindrome[i][j] = s.charAt(i) == s.charAt(j) && isPalindrome[i + 1][j - 1];
+//                 }
+//             }
+//         }
+//         return solve(s, n, k);
+//     }
+
+//     public int solve(String s, int n, int k) {
+//         if (n < k) {
+//             return 0;
+//         }
+//         if (dp[n] != -1) {
+//             return dp[n];
+//         }
+//         int result = solve(s, n - 1, k);
+//         int j = n - 1;
+//         for (int i = 0; j - i + 1 >= k; i++) {
+//             if (isPalindrome[i][j]) {
+//                 result = Math.max(result, 1 + solve(s, i, k));
+//             }
+//         }
+//         return dp[n] = result;
+//     }
+// }
+
+
+//Approach-6 (Bottom-up version of Approach-5 above)
+//T.C : O(n^2)
+//S.C : O(n)
 class Solution {
     int []dp;
     boolean[][] isPalindrome;
@@ -205,23 +250,25 @@ class Solution {
                 }
             }
         }
-        return solve(s, n, k);
+
+        
+        for (int m = 0; m <= n; m++) {
+            if (m < k) {
+                dp[m] = 0;
+                continue;
+            }
+            int result = dp[m - 1];
+            int j = m - 1;
+            for (int i = 0; j - i + 1 >= k; i++) {
+                if (isPalindrome[i][j]) {
+                    result = Math.max(result, 1 + dp[i]);
+                }
+            }
+            dp[m] = result;
+        }
+        
+
+        return dp[n];
     }
 
-    public int solve(String s, int n, int k) {
-        if (n < k) {
-            return 0;
-        }
-        if (dp[n] != -1) {
-            return dp[n];
-        }
-        int result = solve(s, n - 1, k);
-        int j = n - 1;
-        for (int i = 0; j - i + 1 >= k; i++) {
-            if (isPalindrome[i][j]) {
-                result = Math.max(result, 1 + solve(s, i, k));
-            }
-        }
-        return dp[n] = result;
-    }
 }
