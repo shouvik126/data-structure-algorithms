@@ -63,9 +63,9 @@
 //     }
 // }
 
-//Approach-3 (Buttom up of Approach-1) - TLE
-//T.C : O(n^2 * k)
-//S.C : O(n*K)
+//Approach-3 (Bottom Up + PrevRow Sum Precomputed)
+//T.C : O(n * k)
+//S.C : O(n * K)
 class Solution {
     int MOD = 1_000_000_007;
     int[][] dp = new int[1001][1001];
