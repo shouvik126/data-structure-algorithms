@@ -1,3 +1,6 @@
+//Approach (Greedy + two pointers)
+//T.C : O(n)
+//S.C : O(26)
 class Solution {
     public List<String> maxNumOfSubstrings(String s) {
         int n = s.length();
