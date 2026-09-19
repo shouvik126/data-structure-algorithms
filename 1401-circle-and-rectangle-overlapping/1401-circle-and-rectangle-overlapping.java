@@ -1,3 +1,6 @@
+//Approach-1 (Nearest point check and compare)
+//T.C : O(1)
+//S.C : O(1)
 class Solution {
     public boolean checkOverlap(int radius, int xCenter, int yCenter, int x1, int y1, int x2, int y2) {
         int xi = Integer.MAX_VALUE;
