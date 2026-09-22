@@ -1,3 +1,6 @@
+//Approach (Segment Tree + concept of Find X Value of Array I
+//T.C : O((n + q*logn) * k)   [Build = O(n*k), each Update/Query = O(k*logn)]
+//S.C : O(n*k)   [segment tree storage, since each node stores an array of size k]
 class Node {
     int[] count = new int[5];
     int prod = 0;
