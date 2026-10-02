@@ -45,6 +45,7 @@
 ## Dynamic Programming
 |  |
 | ------- |
+| [0022-generate-parentheses](https://github.com/shouvik126/data-structure-algorithms/tree/master/0022-generate-parentheses) |
 | [0115-distinct-subsequences](https://github.com/shouvik126/data-structure-algorithms/tree/master/0115-distinct-subsequences) |
 | [0416-partition-equal-subset-sum](https://github.com/shouvik126/data-structure-algorithms/tree/master/0416-partition-equal-subset-sum) |
 | [0486-predict-the-winner](https://github.com/shouvik126/data-structure-algorithms/tree/master/0486-predict-the-winner) |
@@ -247,6 +248,7 @@
 |  |
 | ------- |
 | [0020-valid-parentheses](https://github.com/shouvik126/data-structure-algorithms/tree/master/0020-valid-parentheses) |
+| [0022-generate-parentheses](https://github.com/shouvik126/data-structure-algorithms/tree/master/0022-generate-parentheses) |
 | [0115-distinct-subsequences](https://github.com/shouvik126/data-structure-algorithms/tree/master/0115-distinct-subsequences) |
 | [0316-remove-duplicate-letters](https://github.com/shouvik126/data-structure-algorithms/tree/master/0316-remove-duplicate-letters) |
 | [0647-palindromic-substrings](https://github.com/shouvik126/data-structure-algorithms/tree/master/0647-palindromic-substrings) |
@@ -460,6 +462,7 @@
 ## Backtracking
 |  |
 | ------- |
+| [0022-generate-parentheses](https://github.com/shouvik126/data-structure-algorithms/tree/master/0022-generate-parentheses) |
 | [1096-brace-expansion-ii](https://github.com/shouvik126/data-structure-algorithms/tree/master/1096-brace-expansion-ii) |
 | [3348-smallest-divisible-digit-product-ii](https://github.com/shouvik126/data-structure-algorithms/tree/master/3348-smallest-divisible-digit-product-ii) |
 ## Nim Game
@@ -504,6 +507,7 @@
 |  |
 | ------- |
 | [0020-valid-parentheses](https://github.com/shouvik126/data-structure-algorithms/tree/master/0020-valid-parentheses) |
+| [0022-generate-parentheses](https://github.com/shouvik126/data-structure-algorithms/tree/master/0022-generate-parentheses) |
 | [1111-maximum-nesting-depth-of-two-valid-parentheses-strings](https://github.com/shouvik126/data-structure-algorithms/tree/master/1111-maximum-nesting-depth-of-two-valid-parentheses-strings) |
 | [1190-reverse-substrings-between-each-pair-of-parentheses](https://github.com/shouvik126/data-structure-algorithms/tree/master/1190-reverse-substrings-between-each-pair-of-parentheses) |
 | [1614-maximum-nesting-depth-of-the-parentheses](https://github.com/shouvik126/data-structure-algorithms/tree/master/1614-maximum-nesting-depth-of-the-parentheses) |
