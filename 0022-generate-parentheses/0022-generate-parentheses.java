@@ -1,3 +1,6 @@
+// Approach-1 (Simple Recursion)
+//T.C : O(2n* (2^(2n)) -> Removing constant -> O(n * (2^n))
+//S.C : O(2*n) -> Removing constant -> O(n) -> recursion stack space - Max depth of recusion tree
 class Solution {
     List<String> res;
     public List<String> generateParenthesis(int n) {
