@@ -251,6 +251,7 @@
 | [0020-valid-parentheses](https://github.com/shouvik126/data-structure-algorithms/tree/master/0020-valid-parentheses) |
 | [0022-generate-parentheses](https://github.com/shouvik126/data-structure-algorithms/tree/master/0022-generate-parentheses) |
 | [0115-distinct-subsequences](https://github.com/shouvik126/data-structure-algorithms/tree/master/0115-distinct-subsequences) |
+| [0301-remove-invalid-parentheses](https://github.com/shouvik126/data-structure-algorithms/tree/master/0301-remove-invalid-parentheses) |
 | [0316-remove-duplicate-letters](https://github.com/shouvik126/data-structure-algorithms/tree/master/0316-remove-duplicate-letters) |
 | [0647-palindromic-substrings](https://github.com/shouvik126/data-structure-algorithms/tree/master/0647-palindromic-substrings) |
 | [0856-score-of-parentheses](https://github.com/shouvik126/data-structure-algorithms/tree/master/0856-score-of-parentheses) |
@@ -307,6 +308,7 @@
 ## Breadth-First Search
 |  |
 | ------- |
+| [0301-remove-invalid-parentheses](https://github.com/shouvik126/data-structure-algorithms/tree/master/0301-remove-invalid-parentheses) |
 | [1096-brace-expansion-ii](https://github.com/shouvik126/data-structure-algorithms/tree/master/1096-brace-expansion-ii) |
 | [2492-minimum-score-of-a-path-between-two-cities](https://github.com/shouvik126/data-structure-algorithms/tree/master/2492-minimum-score-of-a-path-between-two-cities) |
 | [2685-count-the-number-of-complete-components](https://github.com/shouvik126/data-structure-algorithms/tree/master/2685-count-the-number-of-complete-components) |
@@ -468,6 +470,7 @@
 |  |
 | ------- |
 | [0022-generate-parentheses](https://github.com/shouvik126/data-structure-algorithms/tree/master/0022-generate-parentheses) |
+| [0301-remove-invalid-parentheses](https://github.com/shouvik126/data-structure-algorithms/tree/master/0301-remove-invalid-parentheses) |
 | [1096-brace-expansion-ii](https://github.com/shouvik126/data-structure-algorithms/tree/master/1096-brace-expansion-ii) |
 | [3348-smallest-divisible-digit-product-ii](https://github.com/shouvik126/data-structure-algorithms/tree/master/3348-smallest-divisible-digit-product-ii) |
 ## Nim Game
