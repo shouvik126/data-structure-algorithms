@@ -1,3 +1,6 @@
+//Approach (Sorting + Sliding Window)
+//T.C : O(nlogn + qlogq), n = log.size(), q = query.size()
+//S.C : O(n + q)
 class Solution {
     public int[] countServers(int n, int[][] logs, int x, int[] queries) {
         int m = logs.length;
